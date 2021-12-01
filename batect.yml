@@ -1,5 +1,4 @@
 include:
   - type: git
     repo: https://github.com/Luamin/batect-bundle.git
-    ref: e15a79f2b17c1f1e5a495baa783e5378a1513837
-    
+    ref: 135364059b7d64d67baf596f38551b279c9a6f85
