@@ -2,3 +2,11 @@ include:
   - type: git
     repo: https://github.com/Luamin/batect-bundle.git
     ref: 135364059b7d64d67baf596f38551b279c9a6f85
+
+tasks:
+  unitTest:
+    description: run the unit test
+    run:
+      container: .
+      command: ./scripts/unitTesh.sh
+    
